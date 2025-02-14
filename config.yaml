@@ -136,7 +136,6 @@ outlines:
 
 pcbs:
   left:
-    template: kicad8
     outlines:
       main:
         outline: board
