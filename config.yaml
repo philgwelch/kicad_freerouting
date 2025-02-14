@@ -141,7 +141,7 @@ pcbs:
         outline: board
     footprints:
       choc_hotswap:
-        what: ceoloide/switch_choc_v1_v2
+        what: switch_choc_v1_v2
         where: /^(matrix|thumbs).*/
         params:
           include_keycap: true
@@ -151,7 +151,7 @@ pcbs:
           from: "{{column_net}}"
           to: "{{colrow}}"
       diode:
-        what: ceoloide/diode_tht_sod123
+        what: diode_tht_sod123
         where: /^(matrix|thumbs)_.*/
         params:
           reversible: false
@@ -162,7 +162,7 @@ pcbs:
         adjust:
           shift: [0, -5]
       nice_nano:
-        what: ceoloide/mcu_nice_nano
+        what: mcu_nice_nano
         params:
           reversible: false
           reverse_mount: true
@@ -180,7 +180,7 @@ pcbs:
           shift: [1.62px, 0]
           rotate: -90
       bat:
-        what: ceoloide/battery_connector_jst_ph_2
+        what: battery_connector_jst_ph_2
         params:
           side: F
           reversible: false
@@ -190,7 +190,7 @@ pcbs:
           ref: matrix_inner_top
           shift: [0.95px, -26]
       bat_passthrough:
-        what: ceoloide/mounting_hole_npth
+        what: mounting_hole_npth
         params:
           hole_size: "6"
           hole_drill: "6"
